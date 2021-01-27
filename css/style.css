@@ -1,0 +1,145 @@
+body{
+	display: flex;
+	flex-direction: column;
+	margin: 0px;
+	background-color: black;
+}
+header{
+	display: flex;
+	align-items: center;
+
+	width: 100%;
+	height: 700px;
+	flex-direction: column;
+	background-image: url('../images/uyno.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.nav-bar {
+	display: flex;
+	margin-top: 20px;
+	align-items: center;
+	justify-content: space-between;
+	width: 1000px;
+	height: 50px;
+	background-color: blue;
+	border-radius: 30px;
+}
+
+.nav-bar p{
+	color: white;
+}
+
+.nav-bar-dop {
+
+	width: 100%;
+	margin-top: 0px;
+	position: fixed;
+	border-radius: 0px;
+}
+
+#kkk {
+	display: flex;
+	padding-left: 40px;
+	color: white;
+}
+
+input {
+	border: 0px solid black;
+	outline: none;
+	width: 200px;
+}
+
+#kkk label {
+	padding-right: 30px;
+}
+
+
+i{
+	padding-right: 10px;
+}
+
+.reg-1{
+	display: inline-block;
+	margin-right: 30px;
+	position: relative;
+}
+
+.reg-2 {
+	display: none;
+	position: absolute;
+	right: 0px;
+	justify-content: center;
+	align-items: center;
+	width: 300px;
+	height: 300px;
+	color: white;
+	background-color: red;
+}
+
+.non {
+	display: flex;
+}
+
+.reg-2 form {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.l1 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.l1 label{
+	display: flex;
+
+
+}
+
+.l1 input{
+	display: flex;
+	margin-bottom: 20px;
+	margin-left: 10px;
+
+}
+
+.l2{
+	display: flex;
+	justify-content: center;
+}
+
+.l2 button {
+	margin-right: 20px;
+	width: 100px;
+}
+
+.man {
+	display: flex;
+	width: 1200px;
+	height: 3000px;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+	background-color: white;
+	justify-content: center;
+}
+
+.scrol {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 300px;
+	height: 300px;
+	background-color: orange;
+	color: black;
+}
